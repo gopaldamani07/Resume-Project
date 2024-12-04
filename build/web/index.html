@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .welcome-container {
+            text-align: center;
+            background: #fff;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+        button, a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        button:hover, a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to My Resume</h1>
+        <p>Hi, I'm <span class="highlight">Gopal Damani</span>.</p>
+        
+        <!-- Redirect to index.jsp -->
+        <form action="index.jsp" method="get">
+            <button type="submit">Proceed to Login</button>
+        </form>
+    </div>
+</body>
+</html>
